@@ -1,0 +1,24 @@
+[weather.met.weather]
+!station ID = station_id
+!comments = station_comm
+
+latitude = stat_lat (DECIMAL DEGREES)
+longitude = stat_lon (DECIMAL DEGREES)
+! altitude = stat_alt (m)
+
+tav = period_tav (oC) ! annual average ambient temperature
+amp = period_amp (oC) ! annual amplitude in mean monthly temperature
+
+!
+! Data are adapted from CSAG climate scenarios
+! statistically dowscaled from various GCMs
+! see http://data.csag.uct.ac.za/
+!
+! Transformation process scripts are open source R codes
+! freely available here
+! https://r-forge.r-project.org/projects/xpos-r/
+!
+! Krs in [0.1,1.2], inLand was used for radn computation
+!
+   year    realY    day    mint    maxt    rain    radn
+     ()       ()     ()    (oC)    (oC)    (mm)   (MJ/m2)

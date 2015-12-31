@@ -1,0 +1,8 @@
+DESCRIPTION - credits: Data are converted from CSAG climate scenarios statistically dowscaled from various GCMs see http://data.csag.uct.ac.za/ - Transformation process scripts are open source R codes freely available here https://r-forge.r-project.org/projects/xpos-r/convertBruceFormat
+1      : Daily records (1=daily, 2=10-daily and 3=monthly data)
+FD      : First day of record (1, 11 or 21 for 10-day or 1 for months)
+FM      : First month of record
+FY	: First year of record (1901 if not linked to a specific year)
+
+  Average ETo (mm/day)
+========================
