@@ -1,0 +1,5 @@
+*WEATHER DATA : v_staLocation from CSAG, modification of historical, MERRA and other perturbations
+
+@ INSI	LAT	LONG	ELEV	TAV	AMP	REFHT	WNDHT
+  v_id	v_lat	v_lon	v_alt	v_tav	v_amp	v_ref	v_wnd
+@DATE   YYYY MM DD  SRAD  TMAX  TMIN  RAIN  WIND  DEWP  VPRS  RHUM
