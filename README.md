@@ -1,9 +1,9 @@
 # climData-formats
 read, write, translate and any data formatting issues
 
-!! there is no creation or transformation of data here
+**there is NO creation or transformation of data here**
 
-INPUTS : a data set at a known format
-
-OUTPUTS : the SAME data (or subset, or extended with NA) at a known format
+* INPUT : a data set at a known format
+* OUTPUT : a data set at a known format
+* OUTPUT : actually exactly the SAME data, but a selected subset, or extended with NA, or at a different format, etc...
 
